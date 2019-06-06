@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="115px" height="146px" viewBox="0 0 115 146" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-14.7%" y="-8.8%" width="133.3%" height="121.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <circle id="path-2" cx="51" cy="51" r="51"></circle>
+        <filter x="-7.4%" y="-5.4%" width="114.7%" height="114.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.0864187047 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-229.000000, -582.000000)">
+            <g id="Group-10" filter="url(#filter-1)" transform="translate(234.000000, 584.000000)">
+                <g id="Group-15" transform="translate(51.000000, 68.000000) rotate(-90.000000) translate(-51.000000, -68.000000) translate(-17.000000, 17.000000)">
+                    <g id="Oval" opacity="0.825916109">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use stroke="#FFFFFF" stroke-width="1" xlink:href="#path-2"></use>
+                    </g>
+                    <text id="Start-Your-Journey" opacity="0.637718564" transform="translate(55.500000, 54.500000) rotate(88.000000) translate(-55.500000, -54.500000) " font-family="OpenSans, Open Sans" font-size="16" font-weight="normal" fill="#FFFDFD">
+                        <tspan x="27" y="37">Start </tspan>
+                        <tspan x="27" y="60.5">Your</tspan>
+                        <tspan x="27" y="84">Journey</tspan>
+                    </text>
+                    <path d="M96.5,25.1503906 L127,25.1503906" id="Line-3" stroke="#979797" opacity="0.652157738" stroke-linecap="square"></path>
+                    <path d="M103,48.8085938 L114,48.8085938" id="Line-4" stroke="#F0F0F0" stroke-linecap="square"></path>
+                    <path d="M92.5,82 L135.5,82" id="Line-5" stroke="#EEEEEE" fill="#EBEBEB" stroke-linecap="square"></path>
+                    <path d="M99,69 L124,69" id="Line-6" stroke="#979797" opacity="0.489397321" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
